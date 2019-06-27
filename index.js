@@ -8,7 +8,6 @@ const download = require('download');
 require('dotenv').config();
 
 app.use(express.json());
-app.use(express.static('dist'))
 
 // Environment Variables
 
@@ -176,10 +175,10 @@ app.get('/', async (req, res) => {
         });
     }
 
-
-
   }
 });
+
+//DOWNLOAD ROUTE
 
 app.get('/download', (req, res) => {
   const file = __dirname + '/audioFolder/audioFile.mp3';
