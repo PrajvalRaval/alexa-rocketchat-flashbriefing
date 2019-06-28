@@ -33,7 +33,7 @@ Deploy your Flash briefing skill in minutes using Rocket chat and broadcast mess
 
 * Get Repository Contents using the following command:
    
-   `git clone https://github.com/PrajvalRaval/rc-flashbriefing-server.git`
+   `git clone https://github.com/RocketChat/alexa-rocketchat-flashbriefing`
    
 * After cloning create a **.env** file with following environment variables:
 
